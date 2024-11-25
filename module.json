@@ -1,0 +1,61 @@
+{
+  "id": "mroracle-mysterious-and-revelatory",
+  "title": "MROracle (Mysterious & Revelatory Oracle)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": { }
+      }
+    ]
+  },
+  "description": "An alternate ruleset to replace the Oracle Class from Player Core 2. Introduces two oracle subclasses, the mystery and the revelation, to provide more customizability and reduce feature bloat of mystery-only oracles.",
+  "authors": [
+    {
+      "name": "Gwir the Garish",
+      "discord": "GwirTheGarish"
+    }
+  ],
+  "packs": [
+    {
+      "name": "mroracle-class",
+      "label": "MROracle",
+      "path": "packs/mroracle-class",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "flags": {
+	  "mroracle-mysterious-and-revelatory" : {
+		  "pf2e-homebrew": {
+			  "featTraits": {
+				  "mroracle": {
+					  "label": "(MR)Oracle",
+					  "description": "This indicates an oracle class feat from the Mysterious & Revelatory Oracle ruleset."
+				  }
+			  }
+		  }
+	  }
+	}
+    },
+    {
+      "name": "mroracle-journal",
+      "label": "Journal",
+      "path": "packs/mroracle-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ]
+}
