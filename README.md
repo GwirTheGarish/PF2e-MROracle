@@ -22,7 +22,7 @@ to aura effects. To achieve that, this module includes:
 
 # Installation
 
-Simply download the manifest from https://raw.githubusercontent.com/GwirTheGarish/MROracle/master/module.json.
+Simply download the manifest from https://raw.githubusercontent.com/GwirTheGarish/PF2e-MROracle/main/module.json.
 
 Once installed to Foundry VTT, the module is fully functional. However, the feats will not populate in the character builder without additional setup.
 Please follow these simple steps to enable that feature. *You'll also need to repeat this process each time the Pathfinder game system is updated.*
