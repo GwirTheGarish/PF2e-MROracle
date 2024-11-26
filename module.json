@@ -6,6 +6,9 @@
     "minimum": "12",
     "verified": "12"
   },
+"url": "https://github.com/GwirTheGarish/PF2e-MROracle",
+"manifest": "https://raw.githubusercontent.com/GwirTheGarish/PF2e-MROracle/master/module.json",
+"download": "https://github.com/GwirTheGarish/PF2e-MROracle/archive/refs/heads/main.zip",
   "relationships": {
     "systems": [
       {
