@@ -1,0 +1,5 @@
+2024/11/25-14:51:42.620 23fc Recovering log #41
+2024/11/25-14:51:42.620 23fc Level-0 table #43: started
+2024/11/25-14:51:42.636 23fc Level-0 table #43: 1181 bytes OK
+2024/11/25-14:51:42.636 23fc Delete type=0 #41
+2024/11/25-14:51:42.636 23fc Delete type=3 #40
