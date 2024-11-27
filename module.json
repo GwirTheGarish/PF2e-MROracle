@@ -25,6 +25,16 @@
       "discord": "GwirTheGarish"
     }
   ],
+  "packFolders": [
+  {
+	  "name": "Mysterious & Revelatory Oracle",
+	  "sorting": "m",
+	  "packs": [
+	  "mroracle-class",
+	  "mroracle-journal"
+	  ]
+  }
+],
   "packs": [
     {
       "name": "mroracle-class",
