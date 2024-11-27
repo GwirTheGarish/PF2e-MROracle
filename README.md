@@ -14,7 +14,7 @@ and remaster) oracles into a new and exciting ruleset! Please download the compl
 
 The module is designed to make the MROracle ruleset as automated as possible, from character creation all the way
 to aura effects. To achieve that, this module includes:
-- All 10 mysteries from pre-remaster 2nd edition, reconfigured to the rule changes of the MROracle
+- All 10 mysteries from pre-remaster 2nd edition, reconfigured to the rule changes of the MROracle. Blight mystery added as of 27 Nov 2024.
 - 9 brand new revelation subclasses
 - Oracle multiclass dedication
 - 48 oracle class feats
