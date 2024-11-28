@@ -29,35 +29,68 @@
   {
 	  "name": "Mysterious & Revelatory Oracle",
 	  "sorting": "m",
-	  "packs": [
-	  "mroracle-class",
-	  "mroracle-journal"
-	  ]
-  }
-],
-  "packs": [
-    {
-      "name": "mroracle-class",
-      "label": "MROracle",
-      "path": "packs/mroracle-class",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-	   "flags": {
+	  "color": "#79678f",
+	  "folders": [
+	  {
+		  "name": "Effects & GM Tools",
+		  "sorting": "m",
+		  "color": "#729ba3",		  
+		  "packs": [
+			"mroracle-effects",
+			"mroracle-journal"
+			]
+		},
+		{
+		  "name": "Character Options",
+		  "sorting": "m",
+		  "color": "#9e8910",		  
+		  "packs": [
+			"mroracle-class",
+			"mroracle-actions",
+			"mroracle-feats",
+			"mroracle-features",
+			"mroracle-dedication"
+					]
+				}
+			]
+		}
+	],
+"flags": {
 	  "mroracle-mysterious-and-revelatory" : {
 		  "pf2e-homebrew": {
 			  "featTraits": {
 				  "mroracle": {
-					  "label": "(MR)Oracle",
+					  "label": "MROracle",
 					  "description": "This indicates an oracle class feat from the Mysterious & Revelatory Oracle ruleset."
 				  }
 			  }
 		  }
 	  }
-	}
+	},
+  "packs": [
+    {
+      "name": "mroracle-actions",
+      "label": "Actions",
+      "path": "packs/mroracle-actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "system": "pf2e",
+	   "flags" : {}
+    },
+	    {
+      "name": "mroracle-class",
+      "label": "Class",
+      "path": "packs/mroracle-class",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "system": "pf2e",
+	   "flags" : {}
     },
     {
       "name": "mroracle-journal",
@@ -68,7 +101,56 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e"
+      "system": "pf2e",
+	  "flags": {}
+    },
+	{
+      "name": "mroracle-effects",
+      "label": "Effects",
+      "path": "packs/mroracle-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "system": "pf2e",
+	   "flags" : {}
+    },
+	{
+      "name": "mroracle-feats",
+      "label": "Feats",
+      "path": "packs/mroracle-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "system": "pf2e",
+	   "flags" : {}
+    },
+	    {
+      "name": "mroracle-features",
+      "label": "Features",
+      "path": "packs/mroracle-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "system": "pf2e",
+	   "flags" : {}
+    },
+	{
+      "name": "mroracle-dedication",
+      "label": "Oracle Dedication",
+      "path": "packs/mroracle-dedication",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	   "system": "pf2e",
+	   "flags" : {}
     }
   ]
 }
