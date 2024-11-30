@@ -1,7 +1,7 @@
 # Mysterious & Revelatory Oracle
 
-![All Downloads](https://img.shields.io/github/downloads/gwirthegarish/mroracle/total?color=5e0000&label=All%20Downloads)
-![Latest Version Downloads](https://img.shields.io/github/downloads/gwirthegarish/mroracle/latest/total?color=171f69&label=Latest%20Version%20Downloads&sort=semver)
+![All Downloads](https://img.shields.io/github/downloads/gwirthegarish/mroracle-mysterious-and-revelatory/total?color=5e0000&label=All%20Downloads)
+![Latest Version Downloads](https://img.shields.io/github/downloads/gwirthegarish/mroracle-mysterious-and-revelatory/latest/total?color=171f69&label=Latest%20Version%20Downloads&sort=semver)
 
 An alternate ruleset to the oracle class of Pathfinder 2nd edition.
 
